@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(206, 206, 210);
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.card{
+    border: solid 1px black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 50px;
+    background-color: rgb(62, 62, 108);
+    color: white;
+    padding-block: 10px;
+    border-radius: 5px;
+}
+
+.card img{
+    width: 95%;
+}
+.card input{
+    width: 75%;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card button{
+    width: 200px;
+    height: 35px;
+    
+}
+
+.button:hover {
+    background-color:#ad7777e9;
+    transition: 0.7s;
+}
+
+.esfera{
+    border: 1px solid black;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.contenedor_color{
+    display: flex;
+
+}

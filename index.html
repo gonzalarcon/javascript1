@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicador</title>
+    <link rel="stylesheet" href="assets/css/syles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://i.pinimg.com/originals/43/e3/64/43e364042bd28757bb87eb24df966f7d.png" alt="reloj-inteligente">
+            <h3>Reloj Inteligente Sport</h3>
+            <input id="cantidad" type="text" placeholder="Cantidad">
+            <input id="color" type="text" placeholder="Color">
+            <h4>Precio $<span id="precio">400000</span></h4>
+            <button id="boton" onclick="
+            calculo()
+            ">Calcular total</button>
+        </div>
+        <div class="value">
+            <div class="valor_total">Total: $<span id="valor">0</span></div>
+            <div class="cantidad">Cantidad: <span id="total_cantidad"></span> </div>
+            <div class="contenedor_color"> Color :
+                <div id='esfera' class="esfera"></div>
+            </div>
+        </div>
+    </div>
+<script src="assets/js/queryselector.js"></script>
+</body>
+</html>
